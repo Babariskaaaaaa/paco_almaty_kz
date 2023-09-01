@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Roboto:ital@1&family=Ubuntu:wght@500&display=swap');
+
+
+body {
+    background: #AAD8D3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    display: inline-block;
+    width: 32%;
+    margin-left: 10px;
+    margin-bottom: 45px;
+    
+}
+
+.box .napinks img {
+    margin-left: 25px;
+}
+
+.box p {
+    text-align: center;
+}
+
+img {
+    width: 90%;
+}
+
+.jiji {
+    text-align: center;
+    background: #393E46;
+}
+
+.jiji h2 {
+    color: #d2e5e6;
+}
+
+
+@media screen and (max-width: 768px) {
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Roboto:ital@1&family=Ubuntu:wght@500&display=swap');
+    
+    body {
+    background: #AAD8D3;
+    font-family: 'Roboto', sans-serif;
+    }
+    
+    .box {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    }
+    
+    .box .napinks img {
+    margin-left: 0;
+    }
+    
+    .box p {
+    text-align: center;
+    }
+    
+    img {
+    width: 100%;
+    }
+    
+    .jiji {
+    text-align: center;
+    background: #393E46;
+    }
+    
+    .jiji h2 {
+    color: #00ADB5;
+    }
+
+    .insta {
+        position: absolute;
+        background: black;
+        display: flex;
+        margin: auto;
+        
+        left: 0;
+        bottom: -100;
+        width: 100%;
+        height: 80px;
+    }
+    
+    .insta li {
+    
+        margin: auto;
+    
+    
+    
+    }
+    
+    .insta li a, .insta li  {
+        text-decoration: none;
+        list-style-type: none;
+        color: white;
+    
+    
+    }
+    
+    .insta li a:hover {
+        background: rgb(118, 157, 161);
+    }
+    
+    .img {
+        width: 100px;
+        display: block;
+        margin: 20px auto;
+        border-radius: 25px;
+    }
+}
+
+.insta {
+    position: absolute;
+    background: black;
+    display: flex;
+    margin: auto;
+    
+    left: 0;
+    bottom: -100;
+    width: 100%;
+    height: 80px;
+}
+
+.insta li {
+
+    margin: auto;
+
+
+
+}
+
+.insta li a, .insta li  {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+
+
+}
+
+.insta li a:hover {
+    background: rgb(118, 157, 161);
+}
+
+.img {
+    width: 100px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 25px;
+}
